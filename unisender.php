@@ -3,12 +3,12 @@
 Plugin Name: UniSender
 Plugin URI: http://www.unisender.com/
 Description: Integrate the blog with UniSender newsletter delivery service
-Version: 1.0
+Version: 1.7.0
 Author: UniSender
 Author URI: http://www.unisender.com/
 License: GPL2
 
-Copyright (c) 2010. UniSender Software Ltd.  (email : contacts@unisender.com)
+Copyright (c) 2010. UniSender Software Ltd.  (email : plugins@unisender.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as
