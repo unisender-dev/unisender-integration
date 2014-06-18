@@ -1,4 +1,4 @@
-=== Unisender Integration ===
+﻿=== Unisender Integration ===
 
 Contributors: Unisender Inc
 Tags: рассылка, рассылки, программа для имейл рассылки, имейл рассылка, email рассылка, e-mail рассылка, массовая рассылка, e mail рассылка, unisender, юнисендер
@@ -35,4 +35,4 @@ UniSender – это быстрый и надежный сервис отпра�
 
 1. Upload the Unisender Integration folder to the plugins directory in your WordPress installation
 2. Go to plugins list and activate "Unisender Integration".
-3. Set your settings/
+3. Set your settings
