@@ -3,7 +3,7 @@
 Plugin Name: UniSender
 Plugin URI: http://www.unisender.com/
 Description: Integrate the blog with UniSender newsletter delivery service
-Version: 1.7.0
+Version: 1.7.1
 Author: UniSender
 Author URI: http://www.unisender.com/
 License: GPL2

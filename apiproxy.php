@@ -6,7 +6,7 @@ function doPostRequest($url, $data = "", $optional_headers = null)
 {
 	$params = array('http' => array(
 		'method' => 'POST',
-		'content' => $data
+		'content' => $data.'&platform=WordPress'
 	));
 	if ($optional_headers !== null) {
 		$params['http']['header'] = $optional_headers;
