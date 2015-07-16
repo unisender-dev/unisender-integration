@@ -154,7 +154,7 @@ class UnisenderPlugin
 	{
 		$params = array('http' => array(
 			'method' => 'POST',
-			'content' => $data.'&platform=WordPress'
+			'content' => $data
 		));
 		if ($optional_headers !== null) {
 			$params['http']['header'] = $optional_headers;
