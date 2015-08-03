@@ -1,4 +1,4 @@
-<table class="wp-list-table widefat">
+<table class="wp-list-table widecolumn fixed striped pages unisenderListTable">
 	<thead>
 	<tr>
 		<th class="manage-column" style="width: 80px;"></th>

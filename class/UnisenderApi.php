@@ -59,7 +59,6 @@ class UnisenderApi
 			$locale = $locale[0];
 		}
 		return 'http://api.unisender.com/'.$locale.'/api/';
-//		return 'http://unisender.local:81/'..'/api/';
 	}
 
 	/**
@@ -456,7 +455,7 @@ class UnisenderApi
 		curl_setopt($curl, CURLOPT_POST, 1);
 		curl_setopt($curl, CURLOPT_POSTFIELDS, $params);
         $response = curl_exec($curl);
-//        D($response,1);
+
 		$response = str_replace('	', '\t', $response);
 		curl_close($curl);
 

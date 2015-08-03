@@ -29,8 +29,7 @@
 					<span class="description">*</span> <label for="unisender_form_success"><?php _e('Message about the successful subscription', $this->textdomain)?></label>
 				</th>
 				<td>
-					<input name="unisender_form_success" type="text" id="unisender_form_success" value="<?php echo get_option('unisender_form_success'); ?>"
-					       aria-required="true" placeholder="<?php _e('Message about the successful subscription', $this->textdomain)?>" required>
+					<input name="unisender_form_success" type="text" id="unisender_form_success" value="<?php echo get_option('unisender_form_success'); ?>" aria-required="true" placeholder="<?php _e('Message about the successful subscription', $this->textdomain)?>" required>
 				</td>
 			</tr>
 			<tr class="form-field">

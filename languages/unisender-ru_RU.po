@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: UniSender II\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Jun 24 2015 19:52:01 GMT+0300 (EEST)\n"
-"PO-Revision-Date: Mon Jul 13 2015 15:06:01 GMT+0300 (EEST)\n"
+"PO-Revision-Date: Mon Aug 03 2015 15:55:56 GMT+0300 (EEST)\n"
 "Last-Translator: admin <r.kurshakov@videal.net>\n"
 "Language-Team: \n"
 "Language: Russian\n"
@@ -69,7 +69,7 @@ msgstr "Кампании"
 
 #: ../tpl/ContactList/edit.php:18
 msgid "Edit list"
-msgstr "Редактировать"
+msgstr "Изменить"
 
 #: ../tpl/ContactList/edit.php:20 ../tpl/ContactList/list.php:24
 msgid "New contact list"
@@ -120,7 +120,7 @@ msgstr "Список по умолчанию. После подписки пол
 
 #: ../tpl/ContactList/list.php:43 ../tpl/Field/list.php:56
 msgid "Edit"
-msgstr "Редактировать"
+msgstr "Изменить"
 
 #: ../tpl/ContactList/list.php:45 ../tpl/ContactList/import.php:30
 msgid "Import"
@@ -150,7 +150,7 @@ msgstr "Выберите роль для новых пользователей"
 
 #: ../tpl/Form/form.php:16
 msgid "Edit subscription form"
-msgstr "Редактировать форму подписки"
+msgstr "Изменить форму подписки"
 
 #: ../tpl/Form/form.php:21 ../tpl/Message/viewSms.php:29 ../tpl/Message/list.php:
 #: 25 ../tpl/Message/new.php:51 ../tpl/Message/newSms.php:40 ../tpl/Message/view.
@@ -452,7 +452,7 @@ msgstr "API-ключ"
 
 #: ../tpl/Field/edit.php:18
 msgid "Edit additional field"
-msgstr "Редактировать дополнительное поле"
+msgstr "Изменить дополнительное поле"
 
 #: ../tpl/Field/edit.php:20 ../tpl/Field/list.php:39
 msgid "New additional field"

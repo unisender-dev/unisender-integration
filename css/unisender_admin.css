@@ -3,8 +3,6 @@
 	margin-right: 10px;
 }
 
-
-
 [draggable] {
 	-moz-user-select: none;
 	-khtml-user-select: none;
@@ -66,7 +64,44 @@
 	padding: 8px 10px;
 }
 
-table tbody th.manage-column {
-	vertical-align: top;
-	width: 80px;
+form[name^="unisender"] input[type="text"],
+form[name^="unisender"] input[type="date"],
+form[name^="unisender"] input[type="email"],
+form[name^="unisender"] input[type="number"],
+form[name^="unisender"] textarea {
+	width: auto !important;
+}
+
+.manage-column {
+	padding: 5px;
+}
+
+.add-new-h2 {
+	margin: 5px 0 0 0;
+}
+
+th {
+	text-align: left;
+}
+
+.unisenderListTable {
+	min-width: 536px;
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.unisenderListTable,
+.unisenderListTable thead {
+	border-top: none;
+	border-spacing: 0!important;
+
+}
+
+.unisenderListTable .column-title {
+	background: #FFFFFF;
+}
+
+.unisenderListTable a {
+	text-decoration: none;
 }
