@@ -1,4 +1,4 @@
-﻿=== Unisender Integration ===
+﻿=== UniSender Integration ===
 
 Contributors: Unisender Inc
 Tags: рассылка, рассылки, программа для имейл рассылки, имейл рассылка, email рассылка, e-mail рассылка, массовая рассылка, e mail рассылка, unisender, юнисендер
