@@ -3,7 +3,7 @@
 Plugin Name: UniSender
 Plugin URI: http://www.unisender.com/
 Description: Integrate the blog with UniSender newsletter delivery service
-Version: 2.0.2
+Version: 2.0.3
 Author: UniSender
 Author URI: http://www.unisender.com/
 License: GPL2
@@ -36,12 +36,18 @@ register_deactivation_hook(__FILE__, array('UnisenderActivation', 'deactivatePlu
 
 add_action('admin_menu', array('UnisenderActivation', 'addMenuPages'));
 
-add_action('widgets_init', function () { register_widget('UnisenderWidget'); });
+add_action('widgets_init', 'registerUnisenderWidget');
 add_action('wp_ajax_unisenderSubscribe', array('UnisenderForm', 'actionSubscribe'));
 add_action('wp_ajax_nopriv_unisenderSubscribe', array('UnisenderForm', 'actionSubscribe'));
 
 add_action('wp_ajax_unisenderGetLetterBody', array('UnisenderMessage', 'actionGetLetterBody'));
 add_action('wp_ajax_nopriv_unisenderGetLetterBody', array('UnisenderMessage', 'actionGetLetterBody'));
+
+function registerUnisenderWidget()
+{
+	register_widget("UnisenderWidget");
+	return true;
+}
 
 abstract class UnisenderAbstract
 {
