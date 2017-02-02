@@ -58,7 +58,7 @@ class UnisenderApi
 		} else {
 			$locale = $locale[0];
 		}
-		return 'http://api.unisender.com/'.$locale.'/api/';
+		return 'https://api.unisender.com/'.$locale.'/api/';
 	}
 
 	/**
